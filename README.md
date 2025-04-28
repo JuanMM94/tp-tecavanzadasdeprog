@@ -1,6 +1,25 @@
-# Proyecto: Sistema de Gestión de Entradas para Teatro Independiente
+# Tema 2 - Gestión de espectáculos under
 
-## 1. Modelo de Datos
+## 1. Consigna
+
+Una pequeña sala de teatro independiente requiere que se gestione la venta de entradas para sus espectáculos. Cuentan con dos espacios una sala con capacidad para 70 personas y un anfiteatro a cielo abierto con una capacidad para 120 personas. La primera posee un costo variable en las entradas, las tipo A, tienen un costo del doble de las tipo B. El anfiteatro tiene precio único.
+
+Para lo cual un usuario registrado en el sistema registra la siguiente información:
+
+    Artista
+    Fecha de la función
+    Hora de la función
+    Sala
+    Precio de la entrada
+    Duración
+    Tipo de show (infantil, musical, obra de teatro)
+
+En el proceso de carga se debe validar que no se superpongan los espectaculos en una misma fecha y hora, para permitir la carga de espectaculos un mismo día, debe haber una hora libre en la sala para su limpieza previa al inicio del proximo show
+
+El sistema debe poder mostrar los espectaculos próximos a presentarse en la sala, así como los anteriores, en este ultimo caso por supuesto no debe poder permitir realizar la compra de entradas.
+
+
+## 2. Modelo de Datos
 
 ### Usuario
 - `id`: UUID
@@ -24,7 +43,7 @@
 
 ---
 
-## 2. Tecnologías a Utilizar
+## 3. Tecnologías a Utilizar
 
 | Tecnología            | Justificación                                                   |
 |------------------------|----------------------------------------------------------------|
@@ -38,7 +57,7 @@
 
 ---
 
-## 3. Tipo de Testeo y Módulos a Testear
+## 4. Tipo de Testeo y Módulos a Testear
 
 ### Tipos de Testeo
 - **Unitario**: Testear funciones aisladas (validaciones, lógica de precios).
@@ -52,7 +71,7 @@
 
 ---
 
-## 4. Justificación de la Elección Tecnológica y Consideraciones
+## 5. Justificación de la Elección Tecnológica y Consideraciones
 
 - **Node.js + Express.js** permiten desarrollo ágil y eficiente en JavaScript.
 - **PostgreSQL** ofrece seguridad en la integridad de los datos relacionales.
