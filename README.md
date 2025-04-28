@@ -68,6 +68,8 @@ El sistema debe poder mostrar los espectaculos próximos a presentarse en la sal
 - `duracion`: Number
 - `tipoShow`: "Infantil" | "Musical" | "Obra de teatro"
 
+![Diagrama de clases](https://github.com/user-attachments/assets/0dfe3ddd-e078-43d7-90d8-20d8cbe937ba)
+
 ---
 
 ## 3. Tecnologías a Utilizar
