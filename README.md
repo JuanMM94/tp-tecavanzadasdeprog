@@ -2,6 +2,33 @@
 
 ## 1. Consigna
 
+Se pide:
+
+    Implementar un modelo cliente servidor.
+    Implementar el paradigma de objetos.
+    Implementar al menos en la relación entre dos objetos inyección de dependencias.
+
+Objetivo del primer entregable: se pide documentar el plan de trabajo y las decisiones técnicas tomadas para la resolución del mismo. Se deberán entregar diagramas y justificaciones. NO se requiere la entrega de código en la primera instancia.
+
+Requerimientos:
+
+    Diagrama de clases del sistema.
+    Modelo de datos.
+    Detalle de las tecnologías a utilizar.
+    Tipo de testeo y módulos que se planifican testear.
+    Justificación de la elección de tecnología y consideraciones.
+
+
+Condiciones de entrega:
+
+Deberá entregarse un documento en formato PDF conteniendo todos los requerimientos expuestos, o bien en el repositorio (readme)
+
+En el caso que no se pueda realizar la entrega en la fecha estipulada, deberá entregar todo junto en la fecha de entrega del proyecto integrador. Si en esa instancia no alcanza a cumplir con los objetivos, podrá realizar la reentrega en la instancia de recuperación correspondiente.
+
+En el caso que se realicen observaciones o requerir correcciones en el primer entregable, estos deberán entregarse resueltos en la segunda entrega.
+
+---
+
 Una pequeña sala de teatro independiente requiere que se gestione la venta de entradas para sus espectáculos. Cuentan con dos espacios una sala con capacidad para 70 personas y un anfiteatro a cielo abierto con una capacidad para 120 personas. La primera posee un costo variable en las entradas, las tipo A, tienen un costo del doble de las tipo B. El anfiteatro tiene precio único.
 
 Para lo cual un usuario registrado en el sistema registra la siguiente información:
