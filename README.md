@@ -68,7 +68,7 @@ El sistema debe poder mostrar los espectaculos próximos a presentarse en la sal
 - `duracion`: Number
 - `tipoShow`: "Infantil" | "Musical" | "Obra de teatro"
 
-![Diagrama de clases](https://github.com/user-attachments/assets/0dfe3ddd-e078-43d7-90d8-20d8cbe937ba)
+![Diagrama de clases](https://github.com/user-attachments/assets/3a63599b-6ebf-4ee0-86d3-9e655bb7ff25)
 
 ---
 
