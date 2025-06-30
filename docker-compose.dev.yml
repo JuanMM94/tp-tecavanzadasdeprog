@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    command: ts-node-dev --respawn --transpile-only src/index.ts
+    # Uncomment and configure if you use a database
+    # depends_on:
+    #   - db
+
+  # db:
+  #   image: postgres:15
+  #   environment:
+  #     POSTGRES_USER: youruser
+  #     POSTGRES_PASSWORD: yourpassword
+  #     POSTGRES_DB: yourdb
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - pgdata:/var/lib/postgresql/data
+
+# volumes:
+#   pgdata: 
